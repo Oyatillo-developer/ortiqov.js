@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.go {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../img/apeirofovia-paralitikos-fovos-gia-apeiro.webp);
+  background-size: cover;
+}
+.go .edit {
+  width: 25%;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+  border-radius: 30px;
+}
+.go .edit .file {
+  width: 100%;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.go .edit .file h1 {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  color: #FFFFFF;
+}
+.go .edit .run {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.go .edit .run .ter {
+  width: 100%;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+}
+.go .edit .run .ter .bbc {
+  width: 15%;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px 0 0 30px;
+  background: #FFFFFF;
+}
+.go .edit .run .ter .bbc i {
+  font-size: 15px;
+  color: rgb(85, 85, 216);
+}
+.go .edit .run .ter input {
+  width: 85%;
+  height: 5vh;
+  border: none;
+  border-radius: 0 30px 30px 0;
+  outline: none;
+}
+.go .edit .run .ter input::-moz-placeholder {
+  font-size: 13px;
+  font-family: sans-serif;
+}
+.go .edit .run .ter input::placeholder {
+  font-size: 13px;
+  font-family: sans-serif;
+}
+.go .edit .help {
+  width: 100%;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.go .edit .help button {
+  width: 100%;
+  height: 5vh;
+  border: none;
+  border-radius: 30px;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  color: black;
+}
+.go .edit .help button:hover {
+  cursor: pointer;
+}
+.go .edit .help button:active {
+  background: black;
+  color: #FFFFFF;
+}/*# sourceMappingURL=krish.css.map */
